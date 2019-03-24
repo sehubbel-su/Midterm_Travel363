@@ -22,38 +22,29 @@
 <body>
 
     <!-- nav bar -->
-    <nav class="navbar navbar-expand-lg item-dark-grey">
-        <a class="navbar-brand text-white" href="#">Travel363</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link text-white" href="#">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#">Food</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#">Shops</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#">Things To Do</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#">Gallery</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contact</a>
-            </li>
-            </ul>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#about-section">About</a>
+            <a class="nav-item nav-link" href="#food-section">Food</a>
+            <a class="nav-item nav-link" href="#shops-section">Shops</a>
+            <a class="nav-item nav-link" href="#ttd-section">Things To Do</a>
+            <a class="nav-item nav-link" href="#gallery-section">Gallery</a>
+            <a class="nav-item nav-link" href="#contact-section">Contact</a>
+          </div>
         </div>
-    </nav>
+      </nav>
     <!-- end nav bar -->
 
     <!-- main image -->
-    <section class="hero-image">
+    
+    <section class="hero-image" id="Home">
         <div class="hero-text">
             <h1>Mexico, NY</h1>
             <button>Directions</button>
@@ -63,8 +54,8 @@
 
         
     <!-- about -->
-    <section>
-        <div class="row">
+    <section id="about-section">
+        <div class="row bg-warning">
             <div class="col-12 col-md-12 col-lg-12">
                 <h4 class="about-title">
                     About Mexico, NY 
@@ -72,7 +63,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row bg-warning">
             <div class="col-12 col-md-12 col-lg-12">
                 <h6 class="about-description">
                     Mexico is a town in Oswego 
@@ -90,7 +81,7 @@
     <!-- container (food, shops things to do) -->
     <div class="container">
         <!-- food -->
-        <section>
+        <section id="food-section">
 
             <div class="row">
                 <div class="col-12 col-md-12 col-lg-12">
@@ -112,7 +103,7 @@
                                     specials that satisfy your taste buds
                                     as well as your wallet
                                 </p>
-                                <a href="#" class="btn btn-primary">More Info</a>
+                                <a href="#" class="btn btn-primary bg-warning text-dark">More Info</a>
                             </div>
                         </div>
                     </div>
@@ -127,7 +118,7 @@
                                     and a large selection of classic 
                                     lunch and dinner plates
                                 </p>
-                                <a href="#" class="btn btn-primary">More Info</a>
+                                <a href="#" class="btn btn-primary bg-warning text-dark">More Info</a>
                             </div>
                         </div>
                     </div>
@@ -143,7 +134,7 @@
                                     bread, local honey, cheese curds, 
                                     fresh butter and syrup, and more.
                                 </p>
-                                <a href="#" class="btn btn-primary">More Info</a>
+                                <a href="#" class="btn btn-primary bg-warning text-dark">More Info</a>
                             </div>
                         </div>
                     </div>
@@ -153,7 +144,7 @@
         <!-- end food -->
 
         <!-- shops -->
-        <section>
+        <section id="shops-section">
             <div class="row">
                 <div class="col-12 col-md-12 col-lg-12">
                     <h2 class="section-title">
@@ -188,7 +179,7 @@
 
             <div class="row">
                 <div class="col-12 col-md-12 col-lg-12 text-center"> 
-                    <button id="singlebutton" name="singlebutton" class="btn">View All Shops</button> 
+                    <button id="singlebutton" name="singlebutton" class="btn bg-warning text-dark">View All Shops</button> 
                 </div>
             </div>
         </section>
@@ -197,7 +188,7 @@
     <!-- end container (about, food, shops) -->
 
         <!-- things to do -->
-        <section>
+        <section id="ttd-section">
             <div class="row">
                 <div class="col-12 col-md-12 col-lg-12">
                     <h2 class="section-title">
@@ -215,7 +206,7 @@
                                     <img class="TTD-image" src="https://images.unsplash.com/photo-1533722470969-abd27f12c1e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80" alt="Card image cap">
                                 </div>
                                 <div class="card-body">
-                                    <h4 class="TTD-card-title">Mexico Point State Park</h4>
+                                    <h4 class="TTD-card-title">Mexico Point Park</h4>
                                     <p class="card-text">Located in the Town of Mexico on the Eastern shore of Lake Ontario.</p>
                                 </div>
                             </div>
@@ -287,7 +278,7 @@
     <div class="container">
 
         <!-- gallery -->
-        <section>
+        <section id=gallery-section>
             
             <div class="row">
                 <div class="col-12 col-md-12 col-lg-12">
@@ -353,80 +344,6 @@
                         <div class="shop-text">Tree Stand</div>
                     </div>
                 </div>
-
-                <!--
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card img-fluid" style="width:500px">
-                        <img class="card-img-top gallery-image" src="https://images.unsplash.com/photo-1416255856099-5f33ae760b09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80" alt="Card image" style="width:100%">
-                        <div class="card-img-overlay">
-                        <h4 class="card-title">Village</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card img-fluid" style="width:500px">
-                        <img class="card-img-top gallery-image" src="https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" alt="Card image" style="width:100%">
-                        <div class="card-img-overlay">
-                        <h4 class="card-title">Sunset</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card img-fluid" style="width:500px">
-                        <img class="card-img-top gallery-image" src="https://images.unsplash.com/photo-1512919055121-bb04259a6188?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2704&q=80" alt="Card image" style="width:100%">
-                        <div class="card-img-overlay">
-                        <h4 class="card-title">Apple Picking</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card img-fluid" style="width:500px">
-                        <img class="card-img-top gallery-image" src="https://images.unsplash.com/photo-1500076656116-558758c991c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80" alt="Card image" style="width:100%">
-                        <div class="card-img-overlay">
-                        <h4 class="card-title">On The Farm</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card img-fluid" style="width:500px">
-                        <img class="card-img-top gallery-image" src="https://images.unsplash.com/photo-1506102383123-c8ef1e872756?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" alt="Card image" style="width:100%">
-                        <div class="card-img-overlay">
-                        <h4 class="card-title">Sunset</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card img-fluid" style="width:500px">
-                        <img class="card-img-top gallery-image" src="https://images.unsplash.com/photo-1471532027614-154d124ccf57?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="Card image" style="width:100%">
-                        <div class="card-img-overlay">
-                        <h4 class="card-title">Haybails</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card img-fluid" style="width:500px">
-                        <img class="card-img-top gallery-image" src="https://images.unsplash.com/photo-1499529112087-3cb3b73cec95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80" alt="Card image" style="width:100%">
-                        <div class="card-img-overlay">
-                        <h4 class="card-title">Wheat</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card img-fluid" style="width:500px">
-                        <img class="card-img-top gallery-image" src="https://images.unsplash.com/photo-1510535317800-6c81ec95ab5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" alt="Card image" style="width:100%">
-                        <div class="card-img-overlay">
-                        <h4 class="card-title">Tree Stand</h4>
-                        </div>
-                    </div>
-                </div>
-                -->
             </div>
         </section>
         <!-- end gallery -->
@@ -435,7 +352,7 @@
     <!-- end container (gallery) -->
 
     <!-- contact -->
-    <section class=".center-div">
+    <section class=".center-div" id="contact-section">
         <div class="row">
             <div class="col-12 col-md-12 col-lg-12">
                 <h2 class="section-title">
@@ -468,7 +385,7 @@
 
     <div class="row">
         <div class="col-12 col-md-12 col-lg-12 text-center"> 
-            <button id="singlebutton" name="singlebutton" class="btn">Submit</button> 
+            <button id="singlebutton" name="singlebutton" class="btn bg-warning text-dark">Submit</button> 
         </div>
     </div>
 

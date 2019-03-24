@@ -10,6 +10,7 @@ body, html {
 }
 
 /* nav bar */
+
 .nav-item a {
     color:#000;
     transition: .5s;
@@ -48,7 +49,7 @@ body, html {
     display: inline-block;
     padding: 10px 25px;
     color: black;
-    background-color: #E6851C;
+    background-color: #ffc107;
     text-align: center;
     cursor: pointer;
 }
@@ -66,8 +67,7 @@ body, html {
 
 /* about */
 .about-title, .about-description {
-    background-color:#DFDFDF;
-    margin:0; 
+    margin-top: 0; 
     max-height:400px; 
     width:100%;  
     line-height:70px; 
@@ -96,7 +96,6 @@ body, html {
 
 .food-btn {
     width: 100px;
-    background-color: #343536;
 }
 
 .food-title {
@@ -128,7 +127,7 @@ body, html {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #555;
+    background-image: radial-gradient(white, transparent 90%);
 }
   
 .shop-container:hover .overlay {
@@ -136,7 +135,7 @@ body, html {
 }
   
 .shop-text {
-    color: white;
+    color: black;
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -157,15 +156,8 @@ body, html {
     outline: 0;
     display: inline-block;
     padding: 10px 25px;
-    color: #fff;
-    background-color: #E6851C;
     text-align: center;
     cursor: pointer;
-}
-
-#singlebutton:hover {
-    background-color: #555;
-    color: white;
 }
 /* end shops */
 
@@ -187,7 +179,13 @@ body, html {
 }
 
 .TTD-image:hover {
-    transform: scale(2);
+    left: 0px;
+    top: 0px;
+    transform: scale(1.25);
+    z-index: 1;
+    background-color: #fff;
+    padding-left: 20px;
+    background-size: inherit;
 }
 /* end things to do */
 
@@ -232,32 +230,14 @@ body, html {
 .form-control:hover {
     margin-left: 15px;
 }
-.exampleFormControlInput1 {
-    color: #E6851C;
-}
+
 
 .content-container {
     position: relative;
     text-align: left;
 }
 
-#singlebutton {
-    border-radius: 15px;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    color: #fff;
-    background-color: #E6851C;
-    text-align: center;
-    cursor: pointer;
-}
-
-#singlebutton:hover {
-    background-color: #555;
-    color: white;
-}
 /* end contact */
-
 
 /* footer */
 .footer-text {
