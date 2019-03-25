@@ -43,6 +43,7 @@ body, html {
 }
 
 .hero-text button {
+    transition-duration: 0.4s;
     border: none;
     border-radius: 15px;
     outline: 0;
@@ -58,6 +59,8 @@ body, html {
     background-color: #555;
     color: white;
 }
+  
+
 
 body, html {
     height: 100%;
@@ -159,6 +162,7 @@ body, html {
     text-align: center;
     cursor: pointer;
 }
+
 /* end shops */
 
 
